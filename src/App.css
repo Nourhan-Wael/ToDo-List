@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container,
+.con {
+	background: linear-gradient(to right bottom, #e1b382, #c89666);
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.app-wrapper {
+	background-color: #123436;
+	max-width: 450px;
+	width: 80%;
+	min-height: 90vh;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 3px 6px 40px #000;
+	margin-bottom: 10px;
+}
+.header h1 {
+	color: #fff;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.task-input {
+	outline: none;
+	/* width: 260px; */
+	width: 70%;
+	padding: 15px;
+	margin-right: 25px;
+	font-size: 20px;
+	color: #ccc;
+	background-color: #000;
+	border: 1px solid #c89666;
+	border-radius: 10px;
+}
+.button-add {
+	width: 70px;
+	padding: 15px;
+	font-size: 20px;
+	border-radius: 10px;
+	border: 0;
+	background-color: #f1af71;
+	cursor: pointer;
+}
+
+.list-item {
+	display: flex;
+	margin: 20px 0;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	max-height: 300px;
+	padding: 7px;
+}
+
+.button-complete,
+.button-delete,
+.button-edit {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: transparent;
+	font-size: 28px;
+	border-radius: 50%;
+}
+.button-complete {
+	color: #000;
+	margin-right: 10px;
+}
+.completedCheck {
+	color: #ff6c6c;
+}
+.button-edit {
+	color: #e2d029;
+	margin-right: 10px;
+}
+.button-delete {
+	color: green;
+}
+.completed {
+	text-decoration-style: solid;
+	text-decoration-line: line-through;
+	text-decoration-color: #ff6c6c;
+}
+
+input:focus,
+button:focus {
+	outline: none;
+}
+
+/* Home Page */
+
+.home,
+.con {
+	height: 100%;
+	background: rgba(244, 194, 127, 0.67);
+}
+.btn-home {
+	background: linear-gradient(267.72deg, #d8605b -0.89%, #f4c27f 112.29%);
+}
+.username {
+	color: #d8605b;
+}
+
+/* TaskList */
+
+.taskList {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 290px);
+	gap: 20px;
+}
+
+.task-card {
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.loading-indicator {
+	text-align: center;
+	font-weight: bold;
+}
+
+.error-message {
+	color: red;
+	text-align: center;
+}
+
+.empty-state {
+	text-align: center;
+	font-style: italic;
+}
+
+/*PAGINATION*/
+.paginationContainer {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	padding: 10px;
+	flex-wrap: wrap;
+}
+
+.paginationContainer li {
+	list-style: none;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 300;
+	color: black;
+}
+
+.paginationContainer li:hover {
+	background-color: #ddd;
+}
+
+.paginationContainer li.activePagination {
+	background-color: #d8605b;
+}
+
+.activePagination:hover {
+	background-color:#d8605b;
+}
+
+.activePagination a {
+	color: black;
+}
+
+/* Other styles for card header, body, footer */
+
+@media screen and (max-width: 500px) {
+	.task-input {
+		width: 100%;
+	}
+	.button-add {
+		margin: 20px 25% 0;
+		width: 50%;
+	}
+	.list {
+		margin: 0;
+		width: 190%;
+	}
+	.taskList {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 230px);
+}
+}

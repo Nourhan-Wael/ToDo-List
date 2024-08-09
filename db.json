@@ -1,0 +1,221 @@
+{
+  "users": [
+    {
+      "id": "049c",
+      "name": "Nourhan",
+      "email": "nourhanwael12@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "4e55",
+      "name": "Mohamed",
+      "email": "mohamed12@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "9efe",
+      "name": "Wael",
+      "email": "wael12@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "2935",
+      "name": "Malak",
+      "email": "Malak12@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "5f8c",
+      "name": "Ahmed",
+      "email": "Ahmed12@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "b03b",
+      "name": "Nourhan",
+      "description": "Studying",
+      "priority": "medium",
+      "dueDate": "2024-08-06",
+      "status": "pending",
+      "userId": "049c"
+    },
+    {
+      "id": "212f",
+      "name": "sleep",
+      "description": "now",
+      "priority": "medium",
+      "dueDate": "2024-08-18",
+      "status": "pending",
+      "userId": "049c"
+    },
+    {
+      "id": "cbc3",
+      "name": "Eat",
+      "description": "breakfast",
+      "priority": "low",
+      "dueDate": "2024-08-09",
+      "status": "pending",
+      "userId": "049c"
+    },
+    {
+      "id": "4e1d",
+      "name": "play",
+      "description": "Piano",
+      "priority": "low",
+      "dueDate": "2024-08-01",
+      "status": "pending",
+      "userId": "049c"
+    },
+    {
+      "id": "faa8",
+      "name": "Take Rest",
+      "description": "",
+      "priority": "low",
+      "dueDate": "2024-08-10",
+      "status": "pending",
+      "userId": "049c"
+    },
+    {
+      "id": "2367",
+      "name": "Meeting",
+      "description": "with the team",
+      "priority": "high",
+      "dueDate": "2024-08-15",
+      "status": "pending",
+      "userId": "049c"
+    },
+    {
+      "id": "9ef5",
+      "name": "Study",
+      "description": "React",
+      "priority": "medium",
+      "dueDate": "2024-08-10",
+      "status": "pending",
+      "userId": "049c"
+    },
+    {
+      "id": "0729",
+      "name": "Mohamed",
+      "description": "tasks of mohamed",
+      "priority": "high",
+      "dueDate": "2024-08-22",
+      "status": "pending",
+      "userId": "4e55"
+    },
+    {
+      "id": "407b",
+      "name": "Mohamed",
+      "description": "Studying",
+      "priority": "medium",
+      "dueDate": "2024-08-16",
+      "status": "pending",
+      "userId": "4e55"
+    },
+    {
+      "id": "67c9",
+      "name": "Study",
+      "description": "",
+      "priority": "high",
+      "dueDate": "2024-08-23",
+      "status": "pending",
+      "userId": "2935"
+    },
+    {
+      "id": "d8cf",
+      "name": "Study",
+      "description": "Math",
+      "priority": "low",
+      "dueDate": "2024-07-29",
+      "status": "pending",
+      "userId": "2935"
+    },
+    {
+      "id": "1aaf",
+      "name": "pppp",
+      "description": "",
+      "priority": "medium",
+      "dueDate": "2024-08-03",
+      "status": "pending",
+      "userId": "2935"
+    },
+    {
+      "id": "8821",
+      "name": "Mohamed",
+      "description": "",
+      "priority": "medium",
+      "dueDate": "2024-08-05",
+      "status": "pending",
+      "userId": "2935"
+    },
+    {
+      "id": "3fc9",
+      "name": "play",
+      "description": "",
+      "priority": "medium",
+      "dueDate": "2024-07-29",
+      "status": "pending",
+      "userId": "2935"
+    },
+    {
+      "id": "5596",
+      "name": "play",
+      "description": "",
+      "priority": "medium",
+      "dueDate": "2024-08-12",
+      "status": "pending",
+      "userId": "2935"
+    },
+    {
+      "id": "0b48",
+      "name": "play",
+      "description": "piano",
+      "priority": "medium",
+      "dueDate": "2024-07-31",
+      "status": "pending",
+      "userId": "5f8c"
+    },
+    {
+      "id": "5d20",
+      "name": "fcxvc",
+      "description": "xcvccxv",
+      "priority": "low",
+      "dueDate": "2024-07-29",
+      "status": "pending",
+      "userId": "5f8c"
+    },
+    {
+      "id": "573e",
+      "name": "xczxvx",
+      "description": "",
+      "priority": "medium",
+      "dueDate": "2024-08-15",
+      "status": "pending",
+      "userId": "5f8c"
+    },
+    {
+      "id": "5cc6",
+      "name": "cxzcvxzv",
+      "description": "",
+      "priority": "medium",
+      "dueDate": "2024-08-13",
+      "status": "pending",
+      "userId": "5f8c"
+    },
+    {
+      "id": "72ee",
+      "name": "Nourhan",
+      "description": "",
+      "priority": "medium",
+      "dueDate": "2024-08-07",
+      "status": "pending",
+      "userId": null
+    }
+  ]
+}
